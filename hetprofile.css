@@ -1,0 +1,75 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    justify-content:center;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    background-color: pink;
+}
+.profile{
+    width: 400px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 8px ;
+}
+.header{
+    padding: 40px 60px;
+    background-color: black;
+}
+.pic{
+    display: inline-block;
+    padding: 8px;
+    margin: auto;
+    border-radius: 50%;
+}
+.pic img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.header h1{
+    color: blue;
+    margin: 10px 0px;
+}
+.header h2{
+    color: rgb(243, 6, 6);
+    text-decoration: underline;
+}
+.sy{
+    margin: 20px;
+}
+.sy a{
+    color: white;
+    font-size: 22px;
+    width: 40px;
+}
+.fab{
+    font-weight: 400;
+}
+.fa-google:before {
+    content: "\f1a0";
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.contact{
+    color: yellow;
+    padding: 12px 50px ;
+    margin-top: 12px;
+    border: 2px solid red;
+    border-radius: 7px;
+    cursor: pointer;
+    display: inline-block;
+}
